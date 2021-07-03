@@ -1,6 +1,6 @@
 build:
   docker:
-    web: Dockerfile
+    binance-bot: Dockerfile
   config:
     NODE_ENV: production
     GIT_HASH: unspecified
