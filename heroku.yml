@@ -1,6 +1,9 @@
 build:
   docker:
     binance-bot: Dockerfile
+    binance-mongo: Dockerfile
+    binance-redis: Dockerfile
+    binance-mongo-express: Dockerfile
   config:
     NODE_ENV: production
     GIT_HASH: unspecified
